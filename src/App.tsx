@@ -125,7 +125,7 @@ function App() {
               <span className="text-[10px] text-[#d4a844]/60 tracking-wider">扫码加微信</span>
               <div className="relative w-24 h-24 rounded-xl flex items-center justify-center bg-black/40 p-1 border border-[#d4a844]/30 shadow-lg shadow-[#d4a844]/10">
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#d4a844]/5 to-transparent pointer-events-none" />
-                <img src="/my-qr.png" alt="扫码加微信" className="w-full h-full object-contain relative z-10" />
+                <img src="/my-qr.svg" alt="扫码加微信" className="w-full h-full object-contain relative z-10" />
               </div>
             </div>
             {/* 官网 */}
