@@ -121,8 +121,8 @@ function App() {
           {/* ===== 其他信息 ===== */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             {/* 二维码 */}
-            <div className="w-24 h-24 bg-white/5 rounded-xl flex items-center justify-center text-neutral-600 text-xs border border-white/5">
-              微信二维码
+            <div className="w-24 h-24 rounded-xl flex items-center justify-center bg-white/5 p-1.5 border border-white/5">
+              <img src="/qr-code.svg" alt="扫码查看名片" className="w-full h-full" />
             </div>
             {/* 官网 */}
             <div className="text-center sm:text-left">
