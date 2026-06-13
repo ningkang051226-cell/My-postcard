@@ -25,7 +25,6 @@ const GlobeIcon = () => (
 );
 
 /* ---------- 品牌色 ---------- */
-const BRAND_GREEN = '#0d7a3f';
 const BRAND_GOLD = '#d4a844';
 
 function App() {
