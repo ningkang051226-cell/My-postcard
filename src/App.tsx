@@ -122,7 +122,7 @@ function App() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             {/* 二维码 */}
             <div className="w-24 h-24 rounded-xl flex items-center justify-center bg-white/5 p-1.5 border border-white/5">
-              <img src="/qr-code.svg" alt="扫码查看名片" className="w-full h-full" />
+              <img src="/my-qr.png" alt="扫码查看名片" className="w-full h-full object-contain" />
             </div>
             {/* 官网 */}
             <div className="text-center sm:text-left">
